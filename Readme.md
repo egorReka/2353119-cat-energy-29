@@ -1,58 +1,34 @@
-# Личный проект «Кэт энерджи»
+# Учебный проект «Кэт энерджи»
 
-* Студент: [Егор Река](https://up.htmlacademy.ru/adaptive/29/user/2353119).
-* Наставник: [Кенан Агаев](https://htmlacademy.ru/profile/kenakula).
+- Платформа: Html Academy
+- Курс: Профессия "Фронтенд-разработчик"
+  - Модуль 2: "HTML и CSS. Адаптивная вёрстка и автоматизация"
+      - Разбираемся с git и GitHub
+      - Методологии вёрстки (БЕМ)
+      - Препроцессоры (SCSS, LESS)
+      - Адаптивные сетки (Felx, Grid)
+      - Адаптивные декоративные элементы
+      - Адаптивная графика
+      - Погружение в автоматизацию (Gulp)
+      - Производительность вёрстки
 
----
+## Итоги
+Сверстал три страницы в Pixel Perfect, в трех разрешениях экрана, применил подходы [Mobile‌ ‌First‌](https://habr.com/ru/articles/269419/), [адаптивный и отзывчивый(резиновый) дизаин](http://www.lookatme.ru/mag/live/experience-news/209291-responsive), учел преполнение контента, оптимизировал графику, шрифты. Написал сборку для Gulp.
 
-**Обратите внимание, что папка с вашими исходными файлами для работы над проектом — `source/`.**
+Дополнительно: разобрался с оптимизацией и локализацией шрифтов, разделением на [subseting](https://wsd.events/2019/12/07/pres/where-are-fonts/) и предзагрузкой для увеличения показателей [LCP](https://web.dev/articles/fcp).
 
-Полезный файл:
 
-- [Contributing.md](Contributing.md) — руководство по внесению изменений.
-
-_Не удаляйте и не обращайте внимание на файлы и папки:_<br>
-_`.github`, `.editorconfig`, `.gitattributes`, `.gitignore`, `.stylelintrc`, `package.json`, `package-lock.json`._
-
----
-
-### Памятка
-
-#### 1. Зарегистрируйтесь на Гитхабе
-
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
-
-#### 2. Создайте форк
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-adaptive/2353119-cat-energy-29) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии будет скопирован в ваш аккаунт.
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808133-3a7ace00-a190-11e9-9d29-401b02036a9c.jpg">
-
-Получится вот так:
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808135-3a7ace00-a190-11e9-9a8d-7390b3784c65.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Также обратите внимание, что клонировать репозиторий нужно через SSH, а не через HTTPS. Нажмите зелёную кнопку «Code» в правой части экрана, чтобы скопировать SSH-адрес вашего репозитория:
-
-<img width="800" alt="" src="https://user-images.githubusercontent.com/10909/60808136-3a7ace00-a190-11e9-884f-24621e62b29a.jpg">
-
-Клонировать репозиторий можно так:
-
+## Как запустить проект
+1. Установите node.js. Поддерживаемая версия 16
+2. Установить в зависимости
+```bash
+  npm сi
 ```
-git clone SSH-адрес_вашего_форка
+3. Собрать проект в `./build`
+```bash
+ npm build
 ```
-
-Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS. Адаптивная вёрстка и автоматизация](https://htmlacademy.ru/intensive/adaptive)» от [HTML Academy](https://htmlacademy.ru).
-
-[check-image]: https://github.com/htmlacademy-adaptive/2353119-cat-energy-29/workflows/Project%20check/badge.svg?branch=master
-[check-url]: https://github.com/htmlacademy-adaptive/2353119-cat-energy-29/actions
+3. Запустить проект
+```bash
+ npm start
+```
